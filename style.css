@@ -1,0 +1,206 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html
+{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+header /*Background Picture CSS*/
+{
+	background-image: url(background.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav /*Navigation Menu CSS*/
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 500px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+.logo img /*Corner Logo CSS*/
+{
+	width: 150px;
+	height: auto;
+	float: left;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.home /*Home Page CSS*/
+{
+	position: relative;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	text-align: center;
+	color: white;
+}
+
+h1 /*"Erik Tacam" CSS*/
+{
+	margin: 0;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+	font-size: 5em;
+}
+
+.intro-divider /*Header Divider*/
+{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	display: inline-block;
+}
+
+h2 /*"Hello! Scroll down to learn more." CSS*/
+{
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+}
+
+.button /*Home Buttons CSS*/
+{
+	display: block;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.profile-buttons /*Profile Buttons CSS*/
+{
+	display: block;
+	margin-left: 75%;
+}
+
+.btn
+{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+	text-decoration: none;
+	margin-right: 5px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn-one /*Facebook Button*/
+{
+	background-color: #3B5998;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-two /*Instagram Button*/
+{
+	background-color: #DD2A7B;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-three /*Resume Button*/
+{
+	background-color: #3B5998;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-four /*LinkedIn Button*/
+{
+	background-color: #DD2A7B;
+	font-family: "Roboto", sans-serif;
+}
+.btn-five /*GitHub Button*/
+{
+	background-color: #3B5998;
+	font-family: "Roboto", sans-serif;
+}
+
+.section-a /*About Me Section A CSS*/
+{
+	padding: 50px 0;
+	background-color: #4285F4;
+	font-family: "Roboto", sans-serif;
+}
+
+.img-responsive
+{
+    margin: 10px;
+    border: 3px solid black;
+    float: right;
+}
+
+.section-b /*About Me Section B CSS*/
+{
+	padding: 50px 0;
+	background-color: #D84437;
+	font-family: "Roboto", sans-serif;
+}
+
+.section-c /*About Me Section C CSS*/
+{
+	padding: 50px 0;
+	background-color: #F4B400;
+	font-family: "Roboto", sans-serif;
+}
+
+.section-heading /*Section Headers CSS*/
+{
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.para /*Paragraph CSS*/
+{
+	font-size: 18px;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.banner
+{
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(banner.jpg);
+	background-size: cover;
+	font-family: "Roboto", sans-serif;
+	color: white;
+}
