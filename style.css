@@ -132,26 +132,30 @@ h2 /*"Hello! Scroll down to learn more."*/
 
 .btn-six /*Home Button*/
 {
-	background-color: #0E76A8;
+	background-color: #26DFD0;
 	font-family: "Roboto", sans-serif;
+	color: black;
 }
 
 .btn-seven /*About Me Button*/
 {
-	background-color: #0E76A8;
+	background-color: #B8EE30;
 	font-family: "Roboto", sans-serif;
+	color: black;
 }
 
 .btn-eight /*Profile Button*/
 {
-	background-color: #0E76A8;
+	background-color: #F62AA0;
 	font-family: "Roboto", sans-serif;
+	color: black;
 }
 
 .btn-nine /*Contact Button*/
 {
-	background-color: #0E76A8;
+	background-color: #F9D030;
 	font-family: "Roboto", sans-serif;
+	color: black;
 }
 .section-a /*About Me Section A*/
 {
