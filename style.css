@@ -25,6 +25,7 @@ header /*Background Picture*/
 	height: 100px;
 	float: left;
 	filter: brightness(150%);
+	padding-left: 30px;
 }
 
 body /*Text*/
@@ -74,6 +75,7 @@ h2 /*"Hello! Scroll down to learn more."*/
 	text-align: right;
 	list-style: none;
 	padding-top: 30px;
+	padding-right: 30px;
 }
 
 .button /*Home Buttons*/
