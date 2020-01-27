@@ -11,7 +11,7 @@ html
     scroll-behavior: smooth;
 }
 
-header /*Background Picture CSS*/
+header /*Background Picture*/
 {
 	background-image: url(background.jpg);
 	height: 100vh;
@@ -19,50 +19,7 @@ header /*Background Picture CSS*/
 	background-position: center;
 }
 
-
-
-
-
-
-
-.main-nav /*Navigation Menu CSS*/
-{
-	float: right;
-	list-style: none;
-	margin-top: 30px;
-}
-
-.main-nav li
-{
-	display: inline-block;
-}
-
-.main-nav li a
-{
-	color: white;
-	text-decoration: none;
-	padding: 5px 20px;
-	font-family: "Roboto", sans-serif;
-	font-size: 15px;
-}
-
-.active
-{
-	background-color: #3B5998;
-	font-family: "Roboto", sans-serif;
-}
-
-.main-nav li.active a
-{
-	border: 1px solid white;
-}
-
-.main-nav li a:hover
-{
-	border: 1px solid white;
-}
-
-.logo img /*Corner Logo CSS*/
+.logo img /*Corner Logo*/
 {
 	width: auto;
 	height: 100px;
@@ -70,7 +27,7 @@ header /*Background Picture CSS*/
 	filter: brightness(150%);
 }
 
-body /*Text CSS*/
+body /*Text*/
 {
 	font-family: monospace;
 }
@@ -81,7 +38,7 @@ body /*Text CSS*/
 	margin: auto;
 }
 
-.home /*Home Page CSS*/
+.home /*Home Page*/
 {
 	position: relative;
 	padding-top: 20%;
@@ -90,7 +47,7 @@ body /*Text CSS*/
 	color: white;
 }
 
-h1 /*"Erik Tacam" CSS*/
+h1 /*"Erik Tacam"*/
 {
 	margin: 0;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -105,26 +62,34 @@ h1 /*"Erik Tacam" CSS*/
 	display: inline-block;
 }
 
-h2 /*"Hello! Scroll down to learn more." CSS*/
+h2 /*"Hello! Scroll down to learn more."*/
 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     padding-top: 15px;
 }
 
-.button /*Home Buttons CSS*/
+.nav-buttons /*Navigation Buttons*/
+{
+	/*display: block;*/
+	text-align: right;
+	list-style: none;
+	padding-top: 30px;
+}
+
+.button /*Home Buttons*/
 {
 	display: block;
 	margin: auto;
 	padding-top: 30px;
 }
 
-.profile-buttons /*Profile Buttons CSS*/
+.profile-buttons /*Profile Buttons*/
 {
 	display: block;
 	margin-left: 50%;
 }
 
-.btn
+.btn /*General Buttons*/
 {
 	border: 1px solid white;
 	padding: 10px 30px;
@@ -158,27 +123,51 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 	background-color: #0E76A8;
 	font-family: "Roboto", sans-serif;
 }
+
 .btn-five /*GitHub Button*/
 {
 	background-color: #89007F;
 	font-family: "Roboto", sans-serif;
 }
 
-.section-a /*About Me Section A CSS*/
+.btn-six /*Home Button*/
+{
+	background-color: #0E76A8;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-seven /*About Me Button*/
+{
+	background-color: #0E76A8;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-eight /*Profile Button*/
+{
+	background-color: #0E76A8;
+	font-family: "Roboto", sans-serif;
+}
+
+.btn-nine /*Contact Button*/
+{
+	background-color: #0E76A8;
+	font-family: "Roboto", sans-serif;
+}
+.section-a /*About Me Section A*/
 {
 	padding: 50px 0;
 	background-color: #4285F4;
 	font-family: "Roboto", sans-serif;
 }
 
-.img-responsive /*Travel Pictures CSS*/
+.img-responsive /*Travel Pictures*/
 {
     margin: 10px;
     border: 3px solid black;
     float: right;
 }
 
-.pfp-responsive /*Profile Picture CSS*/
+.pfp-responsive /*Profile Picture*/
 {
 	margin: 10px;
 	border: 3px solid black;
@@ -186,28 +175,28 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 	height: 200px;
 }
 
-.section-b /*About Me Section B CSS*/
+.section-b /*About Me Section B*/
 {
 	padding: 50px 0;
 	background-color: #D84437;
 	font-family: "Roboto", sans-serif;
 }
 
-.section-c /*About Me Section C CSS*/
+.section-c /*About Me Section C*/
 {
 	padding: 50px 0;
 	background-color: #F4B400;
 	font-family: "Roboto", sans-serif;
 }
 
-.section-heading /*Section Headers CSS*/
+.section-heading /*Section Headers*/
 {
 	margin-bottom: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
-.para /*Paragraph CSS*/
+.para /*Paragraph*/
 {
 	font-size: 18px;
 	font-weight: 400;
