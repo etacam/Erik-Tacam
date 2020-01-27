@@ -109,7 +109,7 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 .profile-buttons /*Profile Buttons CSS*/
 {
 	display: block;
-	margin-left: 75%;
+	margin-left: 50%;
 }
 
 .btn
@@ -159,11 +159,19 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 	font-family: "Roboto", sans-serif;
 }
 
-.img-responsive
+.img-responsive /*Travel Pictures CSS*/
 {
     margin: 10px;
     border: 3px solid black;
     float: right;
+}
+
+.pfp-responsive /*Profile Picture CSS*/
+{
+	margin: 10px;
+	border: 3px solid black;
+	float: right;
+	height: 200px;
 }
 
 .section-b /*About Me Section B CSS*/
@@ -203,4 +211,11 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 	background-size: cover;
 	font-family: "Roboto", sans-serif;
 	color: white;
+}
+
+.info
+{
+	color: #f8f8f8;
+	font-family: "Roboto", sans-serif;
+	color: black;
 }
