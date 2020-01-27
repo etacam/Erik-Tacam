@@ -19,6 +19,12 @@ header /*Background Picture CSS*/
 	background-position: center;
 }
 
+
+
+
+
+
+
 .main-nav /*Navigation Menu CSS*/
 {
 	float: right;
@@ -38,6 +44,12 @@ header /*Background Picture CSS*/
 	padding: 5px 20px;
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
+}
+
+.active
+{
+	background-color: #3B5998;
+	font-family: "Roboto", sans-serif;
 }
 
 .main-nav li.active a
