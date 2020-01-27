@@ -24,7 +24,6 @@ header /*Background Picture CSS*/
 	float: right;
 	list-style: none;
 	margin-top: 30px;
-	margin-left: 500px;
 }
 
 .main-nav li
@@ -59,14 +58,14 @@ header /*Background Picture CSS*/
 	filter: brightness(150%);
 }
 
-body
+body /*Text CSS*/
 {
 	font-family: monospace;
 }
 
 .row
 {
-	max-width: 1200px;
+	/*max-width: 1200px;*/
 	margin: auto;
 }
 
@@ -138,7 +137,7 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 
 .btn-three /*Resume Button*/
 {
-	background-color: #3B5998;
+	background-color: #075E54;
 	font-family: "Roboto", sans-serif;
 }
 
@@ -149,7 +148,7 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 }
 .btn-five /*GitHub Button*/
 {
-	background-color: #670067;
+	background-color: #89007F;
 	font-family: "Roboto", sans-serif;
 }
 
