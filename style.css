@@ -166,21 +166,6 @@ h2 /*"Hello! Scroll down to learn more."*/
 	font-family: "Roboto", sans-serif;
 }
 
-.img-responsive /*Travel Pictures*/
-{
-    margin: 10px;
-    border: 3px solid black;
-    float: right;
-}
-
-.pfp-responsive /*Profile Picture*/
-{
-	margin: 10px;
-	border: 3px solid black;
-	float: right;
-	height: 200px;
-}
-
 .section-b /*About Me Section B*/
 {
 	padding: 50px 0;
@@ -200,6 +185,20 @@ h2 /*"Hello! Scroll down to learn more."*/
 	margin-bottom: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.img-responsive /*Travel Pictures*/
+{
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.pfp-responsive /*Profile Picture*/
+{
+	margin: 10px;
+	border: 3px solid black;
+	float: right;
+	height: 200px;
 }
 
 .para /*Paragraph*/
