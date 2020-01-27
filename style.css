@@ -53,9 +53,10 @@ header /*Background Picture CSS*/
 
 .logo img /*Corner Logo CSS*/
 {
-	width: 150px;
-	height: auto;
+	width: auto;
+	height: 100px;
 	float: left;
+	filter: brightness(150%);
 }
 
 body
