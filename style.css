@@ -218,5 +218,6 @@ h2 /*"Hello! Scroll down to learn more." CSS*/
 	color: #f8f8f8;
 	font-family: "Roboto", sans-serif;
 	color: black;
+	padding-top: 50px;
 	padding-bottom: 100px;
 }
